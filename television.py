@@ -12,11 +12,11 @@ class Television:
         self.__channel: int = Television.MIN_CHANNEL
 
     def power(self) -> None:
-        """Toggle the power state of the television."""
+        """Toggle the power state of television."""
         self.__power = not self.__power
 
     def mute(self) -> None:
-        """Toggle the mute state of the television."""
+        """Toggle the mute state of  television."""
         if self.__power:
             self.__muted = not self.__muted
             if self.__muted:
